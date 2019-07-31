@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(".favIcon").on("click", function() {
-       alert($(this).prev().attr("src"));
+       //alert($(this).prev().attr("src"));
     
       var imageURL = $(this).prev().attr("src");
     
@@ -43,17 +43,5 @@ $(document).ready(function() {
             }
     });//ajax
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+   
 });
